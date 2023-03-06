@@ -1,0 +1,273 @@
+
+#menu ul {
+    
+  
+    height: auto;
+    padding: 10px;
+    margin: 0;
+    background-color: #8B008B;
+    list-style: none; 
+    /* remove os pontinhos antes dos itens */
+    }
+    #menu ul li {
+    display: inline; 
+    /* alinha os itens na horizontal */
+    }
+    #menu ul li a {
+    padding: 3px 15px;
+    display: inline-block;
+    margin-left: 70px;
+    background-color: #8B008B;
+    color: #fff;
+    text-decoration: none; 
+    /* remove o sublinhado do link */
+    
+    border-bottom: 4px solid white;
+    }
+    #menu ul li a:hover { 
+    /* efeito para quando passar o mouse 
+       sobre o item do menu */
+    color: #f5f5f5;
+    border-bottom: 3px solid #f5f5f5;
+    }
+  header{
+    text-align: center;
+    padding: 3px;
+    background-color: #8B008B;
+    color: white;
+    height: 90px;
+    border-bottom: 1px solid #000;
+    
+  }
+ 
+  
+  @media (max-width: 768px) {
+    header {
+         margin-bottom: 20px;
+         height: 200px;
+    }
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+         font-size: 36px;
+    }
+  }
+  
+  section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+  }
+  
+    
+  
+  .card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;
+    max-height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+         display: block;
+         margin: 20px 10px;
+    }
+  }
+  
+  .card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+  
+  @media (max-width: 768px) {
+    .card img {
+         width: 100%;
+         height: 100%;
+    }
+  }
+  
+  .card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+  }
+  
+  @media (max-width: 768px) {
+    .card details {
+         width: 100%;
+    }
+  }
+  
+  .card details summary {
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .card details summary {
+         font-size: 16px;
+    }
+  }
+  
+  .card details p {
+    padding: 0 10px;
+    text-align: justify;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .card details p {
+         font-size: 14px;
+    }
+  }
+  
+  .card details blockquote {
+    color: #777;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 4px;
+    text-align: center;
+    background-color: #8B008B;
+    color: white;
+  }
+  
+  
+    .home h2{
+    
+    color: black;
+    font-family: "Lucida Handwriting";
+    text-align: center;
+    }
+
+
+  
+    .home p{
+  font-family: "Papyrus";
+  text-align: justify;
+    }
+  
+   
+      .bem img {
+        display: block;
+        margin: 0px auto;
+      }
+    .bem h1{
+      background-color: DeepPink;
+      color: white;
+      font-family: "serif";
+    }
+.formul body {
+    padding: 0;
+    margin: 0px ;
+}
+
+.formul form{
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  background-color: #8B008B;
+  max-width: 500px;
+  height: 500px;
+  margin-bottom:200px;
+}
+
+.formul h1{
+  
+  padding: 4px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.formul input{
+  
+  width: 300px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border: 1px solid;
+}
+
+.formul label{
+  margin-left: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.formul textarea{
+  border: 2px solid;
+  width: 350px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  
+
+  font-weight: bold;
+}
+.enviar{
+  text-align: center;
+  background-color: white;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border: 1px solid;
+  color: black;
+}
+
+header{
+  
+  padding: 4px;
+    text-align: center;
+    color: white;
+  background-color: #8B008B;
+  height: 190px;
+  
+ 
+}
+
+.cabecalho img{
+   float: left;
+    width: 100px;
+    height: 120px;
+    cursor: pointer;
+    cursor: hand;
+  
+  
+}
+.home img{
+  width: 900px;
+  height: 500px;
+  display: block;
+  margin: 0px auto;
+}
+
+.post img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0px auto;
+}
+.post p{
+  text-align: justify;
+  font-family: "Papyrus";
+  
+}
